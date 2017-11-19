@@ -1,0 +1,15 @@
+.Blog {
+  @extend .page;
+  &-title {
+    @extend .title;
+  }
+  &-content {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+  &-articleLink {
+    max-width: fit-content;
+    margin-bottom: 5px;
+  }
+}

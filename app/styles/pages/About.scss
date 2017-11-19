@@ -1,0 +1,6 @@
+.About {
+  @extend .page;
+  &-title {
+    @extend .title;
+  }
+}

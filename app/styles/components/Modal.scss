@@ -1,0 +1,22 @@
+.Modal {
+  @extend .page;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: none;
+  background-color: white;
+  &--isOpen {
+    display: flex;
+    flex-direction: column;
+  }
+  &-title {
+    @extend .title;
+  }
+  &-content {
+    font-size: 16px;
+    color: black;
+    padding-bottom: 10px;
+  }
+}
